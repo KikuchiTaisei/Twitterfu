@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('posts', 'PostControler');
+
+if (env('APP_ENV') === 'local') {
+    URL::forceScheme('https');
+}
