@@ -17,6 +17,7 @@
 @endif
 
 <form method="POST" action="/posts/{{ $post->id }}">
+    <input type="hidden" name="_method" value="PUT">
     {{ csrf_field() }}
     <input type="text" class="form-control" aria-describedby="emailHelp" name="title" value="{{ old('title') == '' ? $post->title : old('title') }}">
     <div class="form-group">
