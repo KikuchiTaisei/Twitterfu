@@ -11,7 +11,7 @@
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">{{ $post->title }}</h5>
-            <p class="card-text">{{ $post->content }}</p>
+            <p class="card-text">{!! nl2br(e($post->content)) !!}</p>
 
             <div class="d-flex" style="height: 36.4px;">
                 <button class="btn btn-outline-primary">Show</button>
