@@ -49886,8 +49886,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/ec2-user/environment/simpleboard/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/ec2-user/environment/simpleboard/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/ec2-user/environment/twitterfu/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/ec2-user/environment/twitterfu/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

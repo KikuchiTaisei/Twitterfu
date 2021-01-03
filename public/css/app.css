@@ -10903,3 +10903,7 @@ a.text-dark:focus {
   }
 }
 
+.d-flex a {
+  margin-right: 20px;
+}
+
