@@ -1,6 +1,6 @@
 @extends('layouts.layouts')
 
-@section('title', 'Simple Board')
+@section('title', 'Twitterfu')
 
 @section('content')
 
@@ -15,7 +15,7 @@
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">{{ $post->title }}</h5>
-                <p class="card-text">{!! nl2br(e($post->content)) !!}</p>
+                <p class="card-textg">{!! nl2br(e($post->content)) !!}</p>
 
                 <div class="d-flex" style="height: 36.4px;">
                     <a href="/posts/{{ $post->id }}" class="btn btn-outline-primary">Show</a>

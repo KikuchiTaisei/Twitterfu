@@ -1,6 +1,6 @@
 @extends('layouts.layouts')
 
-@section('title', 'Simple Board')
+@section('title', 'Twitterfu')
 
 @section('content')
 
