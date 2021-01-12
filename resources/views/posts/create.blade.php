@@ -1,6 +1,6 @@
 @extends('layouts.layouts')
 
-@section('title', Twitterfu')
+@section('title, Twitterfu')
 
 @section('content')
 

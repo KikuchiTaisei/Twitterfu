@@ -10907,3 +10907,8 @@ a.text-dark:focus {
   margin-right: 20px;
 }
 
+.navbar-expand-lg {
+  display: flex;
+  justify-content: center;
+}
+
